@@ -1,0 +1,88 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.header{
+    background-image: url("https://assets.cntraveller.in/photos/60ba163ba1a415b43b10badc/master/pass/Untitled-design-7-1366x768.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+    margin-bottom: 0;
+}
+h1{
+    background-color: #457B9D;
+    margin : 40px auto 5px auto;
+    font-size: 20px;
+}
+
+h2{
+    background-color: #1D3557;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 350px;
+}
+h3{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.main{
+     background-color: #F1FAEE;
+     margin-top: 0;    
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+     justify-content: space-around;
+    color: #1D3557;
+    background-color: #F1FAEE;
+    padding-top: 0;
+}
+
+.info{
+    margin-top: 0;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+.place-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.guide{
+    display: flex;
+    flex-direction: row;
+    background-color: lightcyan;
+    margin: 50px;
+    border-bottom: 5px solid #1D3557;
+    font-style: italic;
+    padding-right: 5px;
+}
+.guide-photo{
+    border-radius: 25px;
+    width: 150px;
+    height: 180px;
+    padding: 20px; 
+}
+.your-guide{
+    padding-top: 20px;
+}
+.para{
+    padding-bottom: 2px;
+}
+.name{
+    margin-top: 0;
+}
